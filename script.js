@@ -9,7 +9,8 @@ function random_number_generator() {
 let boxes = document.getElementsByClassName("box");
 
 Array.from(boxes).forEach(box => {
-bo
+    box.style.backgroundcolor = random_nuber_generator();
+    box.style.color = random_number_generator();
 
 })
 

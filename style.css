@@ -1,16 +1,49 @@
-.box{
-    border: 2px solid black;
-    height: 40px;
-    width:40px;
-    padding:20px;
-    text-align:center;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+* {
 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Libre Franklin", serif;
+      font-style:italic;
+}
+
+body {
+    background-image: url("/images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction:column;
 
 }
-.container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:30px;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+        
+}
+
+.box {
+    border: 2px solid #ffffff;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
     
+    
+    
+}
+h1 {
+    color:#d0b4bb;
+    margin-top:130px;
+
+
 }
